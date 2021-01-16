@@ -3,6 +3,9 @@ body{
     padding:0;
     width:100%;
 }
+#num{
+    color:blue;
+}
 header{
     padding:0;
     margin:0;
@@ -15,6 +18,12 @@ header{
     font-size:25px;
     float:left;
     margin:35px 40px 20px 380px;
+    transition:0.3s;
+    
+}
+.opening:hover,.next:hover,.current:hover{
+    color:red;
+
 }
 .next{
     float:left;
@@ -32,5 +41,40 @@ header{
 }
 .main{
     margin:100px 20px 100px 20px;
-    float:none !important;
+    float:none !important;   
+}
+.list{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.aot{
+    background-color:grey;
+    height:200px;
+    width:25%;
+    border:1px solid black;
+    box-shadow:4px 8px 4px grey;
+}
+.stone{
+    background-color:grey;
+    height:200px;
+    width:25%;
+    border:1px solid black;
+    box-shadow:4px 8px 4px grey;
+}
+.promised{
+    background-color:grey;
+    height:200px;
+    width:25%;
+    border:1px solid black;
+    box-shadow:4px 8px 4px grey;
+}
+.list h4{
+    color:darkorange;
+    font-size:18px;
+    text-align: center;
+}
+.list li{
+    list-style: none;
+    
 }
