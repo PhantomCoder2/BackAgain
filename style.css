@@ -1,80 +1,73 @@
+  
 body{
     margin:0;
     padding:0;
-    width:100%;
 }
-#num{
-    color:blue;
-}
+/*NAVBAR*/
 header{
-    padding:0;
-    margin:0;
-    height:100px;
-    background-color:navy !important;
+    background: url(images/1001742.png);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
 }
-.opening{
-    text-decoration: none;
-    color:black;
-    font-size:25px;
-    float:left;
-    margin:35px 40px 20px 380px;
-    transition:0.3s;
-    
+.overlay{
+    background : rgba(0,0,0,0.3);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
 }
-.opening:hover,.next:hover,.current:hover{
-    color:red;
+.navbar-light {
+	background-color:transparent !important;
+	border-color:transparent !important;
+	background-image:none !important;
+    box-shadow:none;	
+}
+.navbar-brand{
+    font-size: 45px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #FFFFF0, #1E90FF,#FFFFF0,#1E90FF) !important;
+    -webkit-background-clip: text ;
+    -moz-background-clip: text ;
+    background-clip: text ;
+    color: transparent !important;
+    padding:0px 40px;
+}
 
+.nav-link {
+   font-size:20px; 
+   color:#fff !important; 
+    padding:10px 30px !important;
 }
-.next{
-    float:left;
-    font-size:40px;
-    text-decoration: none;
-    color:black;
-    margin:20px 40px 20px 60px;
+.nav-link:hover{
+    color: lightblue !important;
+     border-bottom: 1px solid #FFF;
 }
-.current{
-    float:left;
-    font-size:25px;
-    text-decoration: none;
-    color:black;
-    margin:30px 10px 10px 60px;
+.navbar-toggler {
+    margin:10px 0; 
+    background:#fff; 
 }
-.main{
-    margin:100px 20px 100px 20px;
-    float:none !important;   
+/*NAVBAR ENDS*/
+
+/*ABOUT*/
+.top{
+    padding-top:80px;
 }
-.list{
-    display:flex;
-    align-items:center;
-    justify-content:space-evenly;
+.img-about img{
+    box-shadow:0px 0px 70px rgba(29,24,24,0.09);
+    border:10px solid #fff;
 }
-.aot{
-    background-color:grey;
-    height:200px;
-    width:25%;
-    border:1px solid black;
-    box-shadow:4px 8px 4px grey;
+.about span{
+    color:skyblue;
 }
-.stone{
-    background-color:grey;
-    height:200px;
-    width:25%;
-    border:1px solid black;
-    box-shadow:4px 8px 4px grey;
+.about h2{
+    font-size:70px;
 }
-.promised{
-    background-color:grey;
-    height:200px;
-    width:25%;
-    border:1px solid black;
-    box-shadow:4px 8px 4px grey;
+.about p{
+    padding-top:40px;
+    font-size:22px;
 }
-.list h4{
-    color:darkorange;
-    font-size:18px;
-    text-align: center;
-}
-.list li{
-    list-style: none;
-    
-}
+/*ABOUT ENDS*/
